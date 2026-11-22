@@ -1,0 +1,31 @@
+{
+  "name": "taskmaster",
+  "version": "1.0.0",
+  "description": "TaskMaster: A Collaborative Task Tracking and Management Backend System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "task-management",
+    "collaboration",
+    "express",
+    "jwt",
+    "real-time",
+    "websockets",
+    "sse",
+    "airtribe"
+  ],
+  "author": "Manish Kumar Vishwakarma",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "ws": "^8.18.0"
+  }
+}
